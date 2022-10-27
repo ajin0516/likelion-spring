@@ -36,5 +36,4 @@ public class PutController {
                 .status(HttpStatus.ACCEPTED)
                 .body(memberDto);
     }
-
 }

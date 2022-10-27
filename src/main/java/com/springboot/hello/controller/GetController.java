@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController // 이게 붙어야 spring이 controller로 인식, dispatcherServlet이 매핑해줄 controller를 등록
 @RequestMapping("/api/v1/get-api") // controller가 할당 된 후 어떤 method를 실행할지 연결해주는 어노테이션
-public class HelloController {
+public class GetController {
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello() {
